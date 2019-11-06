@@ -1,0 +1,9 @@
+{
+  "plugin_name": "mssql-database-plugin",
+  "allowed_roles": "*",
+  "connection_url": "sqlserver://{{username}}:{{password}}@sqlserver:1433",
+  "max_open_connections": 5,
+  "max_connection_lifetime": "5s",
+  "username": "sa",
+  "password": "yourStrong(!)Password"
+}
